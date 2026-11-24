@@ -1,21 +1,22 @@
 {
   "schema_version": 1,
   "launcher": {
-    "version": "3.3.0",
-    "mandatory": false,
+    "version": "3.4.0",
+    "mandatory": true,
     "download_url": "https://github.com/Reyhanzz/search-roleplay-launcher/releases/latest/download/SearchRoleplayLauncher.exe",
-    "sha256": "14d5d217c4326a290a7238c6fa90d7acc216c836676f5560421125fcaa8df35d",
+    "sha256": "56581a44fda2ed3d07a7e6731488064df15b3d36dac6a5c0074e4a628578397f",
     "changelog": [
-      "Menambahkan sistem Auto-Updater otomatis dari GitHub Releases dengan verifikasi SHA-256",
-      "Menambahkan Remote Config untuk pembaruan IP server, tautan, pengumuman, dan channel UCP tanpa download ulang",
-      "Perbaikan tata letak Panduan UCP dan stabilitas launcher"
+      "Migrasi ke OpenMP Built-in (langsung aktif tanpa perlu install OpenMP Launcher atau SA-MP terpisah)",
+      "Auto-Relog otomatis untuk mengatasi nyangkut Unacceptable NickName dan bug ban palsu setelah DC",
+      "Aktivitas Discord (Rich Presence) untuk status Launcher dan In-Game secara real-time",
+      "Animasi skyline Los Santos 24 jam mengikuti Jam IC serta perapihan tata letak seluruh tab"
     ]
   },
   "remote_config": {
     "server_ip": "151.246.170.113",
     "server_port": 7777,
     "discord_url": "https://discord.gg/f8HzxbHXDs",
-    "website_url": "https://searchrp.netlify.app",
+    "website_url": "https://searchrp.netlify.app/",
     "gta_download_url": "https://drive.google.com/file/d/1koy9yDzR0FyfMFK8O1H3C_y5albwmzZr/view?usp=sharing",
     "announcement": {
       "enabled": false,
@@ -27,6 +28,12 @@
     "ucp_channels": {
       "verify": "#verify-discord",
       "panel": "#panel-ucp"
+    },
+    "discord_rpc": {
+      "enabled": true,
+      "client_id": "1574666414546100324",
+      "large_image": "logo",
+      "large_text": "Search Roleplay"
     }
   }
 }
