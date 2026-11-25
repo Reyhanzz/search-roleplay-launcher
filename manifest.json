@@ -1,15 +1,14 @@
 {
   "schema_version": 1,
   "launcher": {
-    "version": "3.4.0",
+    "version": "3.5.0",
     "mandatory": true,
     "download_url": "https://github.com/Reyhanzz/search-roleplay-launcher/releases/latest/download/SearchRoleplayLauncher.exe",
-    "sha256": "56581a44fda2ed3d07a7e6731488064df15b3d36dac6a5c0074e4a628578397f",
+    "sha256": "ce9117b84ee3211b679a8d8aca06197c2aff75fb1c6fd6673973a9ebc5dac726",
     "changelog": [
-      "Migrasi ke OpenMP Built-in (langsung aktif tanpa perlu install OpenMP Launcher atau SA-MP terpisah)",
-      "Auto-Relog otomatis untuk mengatasi nyangkut Unacceptable NickName dan bug ban palsu setelah DC",
-      "Aktivitas Discord (Rich Presence) untuk status Launcher dan In-Game secara real-time",
-      "Animasi skyline Los Santos 24 jam mengikuti Jam IC serta perapihan tata letak seluruh tab"
+      "Added EN/ID live language toggle (defaults to EN across all tabs and in-game TAB scoreboard)",
+      "Bundled Search:RP In-Game UI Pack (Frosted Obsidian TAB Scoreboard v4.1, Noir sampgui/mouse, and F8 Screenshot Fix)",
+      "Added automatic Desktop shortcut installation with custom Search Roleplay icon on first launch"
     ]
   },
   "remote_config": {
