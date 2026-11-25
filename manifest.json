@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "launcher": {
-    "version": "3.5.0",
+    "version": "3.6.0",
     "mandatory": true,
     "download_url": "https://github.com/Reyhanzz/search-roleplay-launcher/releases/latest/download/SearchRoleplayLauncher.exe",
-    "sha256": "ce9117b84ee3211b679a8d8aca06197c2aff75fb1c6fd6673973a9ebc5dac726",
+    "sha256": "fc08d38476206d06a9d073f8cc5e78d7878c9266fc0eecf58e6c75be86fa8166",
     "changelog": [
-      "Added EN/ID live language toggle (defaults to EN across all tabs and in-game TAB scoreboard)",
-      "Bundled Search:RP In-Game UI Pack (Frosted Obsidian TAB Scoreboard v4.1, Noir sampgui/mouse, and F8 Screenshot Fix)",
-      "Added automatic Desktop shortcut installation with custom Search Roleplay icon on first launch"
+      "Added automatic Server Password detection (Hero Banner LOCKED badge, Home indicator, and real-time pre-launch probe)",
+      "Added GTA Noir Server Password modal with Show/Hide eye toggle, Remember Password option, inline validation shake, and EN/ID support",
+      "Passed server password (-z) seamlessly to OpenMP built-in client, Auto-Relog, and added Wrong Password detection from chatlog"
     ]
   },
   "remote_config": {
